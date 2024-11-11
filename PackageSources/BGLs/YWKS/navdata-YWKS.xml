@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='ASCII'?>
+<FSData version="9.0">
+  <Airport ident="YWKS" lat="-66.69111111111111" lon="111.52583333333332" alt="776.32560000000001" onlyAddIfReplace="TRUE">
+    <Approach type="RNAV" runway="09" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WF" altitude="4010.0F" heading="94.0" missedAltitude="5600.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WI" isIF="TRUE" altitudeDescriptor="A" altitude1="5600.0F"/>
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WF" isFAF="TRUE" flyOver="TRUE" trueCourse="94.0" altitudeDescriptor="A" altitude1="4010.0F" verticalAngle="-3.0"/>
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="YM" fixIdent="RW09T" isMAP="TRUE" flyOver="TRUE" trueCourse="94.0" altitudeDescriptor="A" altitude1="2597.0F" verticalAngle="-3.0"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="YM" fixIdent="RW09T" altitudeDescriptor="+" altitude1="2597.0F"/>
+				<Leg type="VA" trueCourse="94.0" altitudeDescriptor="+" altitude1="3400.0F"/>
+				<Leg type="DF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WA" flyOver="TRUE" turnDirection="R" altitudeDescriptor="+" altitude1="5600.0F"/>
+				<Leg type="HM" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WA" turnDirection="L" trueCourse="164.0" time="1.0" altitudeDescriptor="+" altitude1="5600.0F"/>
+			</MissedApproachLegs>
+			<Transition transitionType="FULL" fixType="WAYPOINT" fixRegion="YM" name="WR2WA" fixIdent="WR2WA" altitude="5600.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WA" isIAF="TRUE" altitudeDescriptor="+" altitude1="5600.0F"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WI" isIF="TRUE" flyOver="FALSE" trueCourse="24.0" altitudeDescriptor="A" altitude1="5600.0F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="WAYPOINT" fixRegion="YM" name="WR2WB" fixIdent="WR2WB" altitude="5600.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WB" isIAF="TRUE" altitudeDescriptor="+" altitude1="5600.0F"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WI" isIF="TRUE" flyOver="FALSE" trueCourse="94.0" altitudeDescriptor="A" altitude1="5600.0F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="WAYPOINT" fixRegion="YM" name="WR2WC" fixIdent="WR2WC" altitude="5600.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WC" isIAF="TRUE" altitudeDescriptor="+" altitude1="5600.0F"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="YM" fixIdent="WR2WI" isIF="TRUE" flyOver="FALSE" trueCourse="164.0" altitudeDescriptor="A" altitude1="5600.0F"/>
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+  </Airport>
+</FSData>

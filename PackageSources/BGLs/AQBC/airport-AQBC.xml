@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport groupID="1" groupGenerated="FALSE" region="Antarctica" country="Italy" state="Terra Nova Bay" city="Zucchelli Station" name="Boulder Clay Runway" ident="AQBC" lat="-74.74250899999720" lon="164.03155400000000" alt="204.99999682791531" magvar="227.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-74.74250943078765" lon="164.03155402066983" alt="204.99999954644591" heading="23.20000839233398" length="2200.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" falloff="1000.000000" surface="{9E7A4A2E-32C0-4495-BDDF-79B24AFB25ED}" transparent="FALSE" number="02" designator="NONE" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+			<RunwayDeformation alt="205.660004" ratio="0.000000"/>
+			<RunwayDeformation alt="201.600006" ratio="1.000000"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-74.75122745416770" lon="164.01734064523185" alt="204.99999954551458" heading="23.20000839233398"/>
+			<RunwayStart end="SECONDARY" lat="-74.73376664026064" lon="164.04573464505526" alt="200.99999955855310" heading="203.20001220703125"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="2" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-74.73356415134370" lon="164.04729541933332"/>
+			<Vertex lat="-74.75168126729122" lon="164.01780262581198"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-74.75145354480694" lon="164.01579365272400"/>
+			<Vertex lat="-74.73333475548164" lon="164.04529136379261"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

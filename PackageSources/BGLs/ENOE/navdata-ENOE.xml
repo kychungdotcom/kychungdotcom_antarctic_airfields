@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='ASCII'?>
+<FSData version="9.0">
+  <Airport ident="ENOE" lat="-71.95666666666666" lon="2.46166666666666" alt="1257.29999999999995" onlyAddIfReplace="TRUE">
+    	<Waypoint lat="-71.95166666666666" lon="2.495" magvar="0.0" waypointType="RNAV" waypointRegion="FA" waypointIdent="LULAV"/>
+		<Waypoint lat="-71.92833333333333" lon="2.695" magvar="0.0" waypointType="UNNAMED" waypointRegion="FA" waypointIdent="D4027"/>
+		<Waypoint lat="-71.90166666666666" lon="2.92" magvar="0.0" waypointType="RNAV" waypointRegion="FA" waypointIdent="XERDO"/>
+		<Waypoint lat="-71.87166666666666" lon="3.17833333333333" magvar="0.0" waypointType="RNAV" waypointRegion="FA" waypointIdent="BOBSO"/>
+		<Waypoint lat="-71.835" lon="3.47666666666666" magvar="0.0" waypointType="RNAV" waypointRegion="FA" waypointIdent="AMULI"/>
+		<Waypoint lat="-71.97" lon="2.345" magvar="0.0" waypointType="RNAV" waypointRegion="FA" waypointIdent="XAMIS"/>
+		<Waypoint lat="-71.77833333333333" lon="3.06333333333333" magvar="0.0" waypointType="RNAV" waypointRegion="FA" waypointIdent="RUDEG"/>
+		<Waypoint lat="-71.96333333333333" lon="3.295" magvar="0.0" waypointType="RNAV" waypointRegion="FA" waypointIdent="RIKTI"/>
+    	<Approach type="RNAV" runway="27" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="XERDO" altitude="6800.0F" heading="249.0" missedAltitude="7800.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="BOBSO" isIF="TRUE" altitudeDescriptor="A" altitude1="7800.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="XERDO" isFAF="TRUE" flyOver="FALSE" trueCourse="249.0" altitudeDescriptor="A" altitude1="6800.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="D4027" flyOver="FALSE" trueCourse="249.0" altitudeDescriptor="A" altitude1="5360.0F" verticalAngle="-3.0"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="LULAV" isMAP="TRUE" flyOver="TRUE" trueCourse="249.0" altitudeDescriptor="A" altitude1="4066.0F" verticalAngle="-3.0"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="LULAV"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="XAMIS" flyOver="TRUE" trueCourse="249.0"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="RUDEG" flyOver="TRUE" turnDirection="R" altitudeDescriptor="+" altitude1="7800.0F"/>
+				<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="RUDEG" turnDirection="R" trueCourse="159.0" time="1.0" altitudeDescriptor="+" altitude1="7800.0F"/>
+			</MissedApproachLegs>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="FA" name="AMULI" fixIdent="AMULI" altitude="10000.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="AMULI" isIAF="TRUE" altitudeDescriptor="+" altitude1="10000.0F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="BOBSO" isIF="TRUE" flyOver="FALSE" trueCourse="249.0" altitudeDescriptor="A" altitude1="7800.0F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="FA" name="RUDEG" fixIdent="RUDEG" altitude="7800.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="RUDEG" isIAF="TRUE" altitudeDescriptor="+" altitude1="7800.0F" speedLimit="230"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="BOBSO" isIF="TRUE" flyOver="FALSE" trueCourse="159.0" altitudeDescriptor="A" altitude1="7800.0F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="FA" name="RIKTI" fixIdent="RIKTI" altitude="10000.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="RIKTI" isIAF="TRUE" altitudeDescriptor="+" altitude1="10000.0F" speedLimit="230"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="FA" fixIdent="BOBSO" isIF="TRUE" flyOver="FALSE" trueCourse="339.0" altitudeDescriptor="A" altitude1="7800.0F"/>
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+  </Airport>
+</FSData>

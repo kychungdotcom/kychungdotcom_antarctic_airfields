@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport groupID="1" groupGenerated="FALSE" region="Antarctica" country="Chile" state="Ellsworth Mountains" city="Union Glacier Camp" name="Union Glacier Runway" ident="SCGC" lat="-79.77777777777777" lon="-83.32083333333333" alt="750.00000000000000" magvar="319.959503" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-79.77777777766858" lon="-83.32083333333212" alt="755.87388886697590" heading="40.00000381469727" length="3000.00000000000000" width="50.00000000000000" patternAltitude="304.79998779296875" falloff="2000.000000" surface="{F32EE818-CB7A-4477-96C3-E970EE1A2257}" transparent="FALSE" number="18" designator="NONE" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<RunwayDeformation alt="771.428711" ratio="0.000000"/>
+			<RunwayDeformation alt="740.888367" ratio="1.000000"/>
+			<Coloration red="165" green="183" blue="190" alpha="255" override="TRUE"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-79.78781922535960" lon="-83.36837571184113" alt="760.90781451389194" heading="40.00000000000000"/>
+			<RunwayStart end="SECONDARY" lat="-79.76771448459668" lon="-83.27330012898790" alt="755.85017332714051" heading="219.99996948242188"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-79.76732849913294" lon="-83.27328832115431"/>
+			<Vertex lat="-79.78790752718868" lon="-83.37057372331734"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" groupIndex="2" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-79.76764060686935" lon="-83.27119211149834"/>
+			<Vertex lat="-79.78822037506124" lon="-83.36847538908223"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

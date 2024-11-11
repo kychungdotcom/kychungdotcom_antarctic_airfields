@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport groupID="1" groupGenerated="FALSE" region="Antarctica" country="United States" state="Oates Land" city="Odell Glacier" name="Odell Glacier" ident="AT18" lat="-76.64965277777779" lon="159.96697499999999" alt="1712.97600000000011" magvar="211.699997" trafficScalar="1.000000" airportTestRadius="950.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-76.64965416463934" lon="159.96697499971700" alt="1594.58716834522784" heading="180.00000000000000" length="1802.58715820312500" width="50.00000000000000" patternAltitude="304.79998779296875" falloff="1000.000000" surface="{F32EE818-CB7A-4477-96C3-E970EE1A2257}" transparent="FALSE" number="18" designator="NONE" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="FALSE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<RunwayDeformation alt="1582.266602" ratio="0.000000"/>
+			<RunwayDeformation alt="1594.285645" ratio="0.300946"/>
+			<RunwayDeformation alt="1594.611328" ratio="1.000000" controlPointBefore="1.958740"/>
+			<Coloration red="165" green="183" blue="190" alpha="255" override="TRUE"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-76.64191000000000" lon="159.96697599999999" alt="1594.58716834522784" heading="180.00000000000000"/>
+			<RunwayStart end="SECONDARY" lat="-76.65739800000000" lon="159.96697700000001" alt="1594.58716834522784" heading="360.00000000000000"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-76.65772582587734" lon="159.96802761494325"/>
+			<Vertex lat="-76.64158261357157" lon="159.96802673001886"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" groupIndex="2" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-76.65772590572574" lon="159.96592216543712"/>
+			<Vertex lat="-76.64158263497517" lon="159.96592415826339"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

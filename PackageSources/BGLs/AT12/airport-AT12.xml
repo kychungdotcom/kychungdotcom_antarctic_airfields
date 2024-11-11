@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport groupID="1" groupGenerated="FALSE" region="Antarctica" country="Germany" state="Queen Maud Land" city="Kohnen Station" name="Kohnen Station Skiway" ident="AT12" lat="-75.00118611111111" lon="0.06881111111111" alt="2915.71680000000015" magvar="21.600000" trafficScalar="1.000000" airportTestRadius="500.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-75.00118610830049" lon="0.06880972220292" alt="2907.87824748642743" heading="355.99996948242188" length="901.29357910156250" width="50.00000000000000" patternAltitude="304.79998779296875" falloff="1000.000000" surface="{F32EE818-CB7A-4477-96C3-E970EE1A2257}" transparent="FALSE" number="17" designator="NONE" primaryLanding="FALSE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="FALSE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<Coloration red="165" green="183" blue="190" alpha="255" override="TRUE"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-75.00495399836569" lon="0.06983100040559" alt="2922.87825588975102" heading="355.99996948242188"/>
+			<RunwayStart end="SECONDARY" lat="-74.99741799836569" lon="0.06778900040559" alt="2822.87825588975102" heading="175.99996948242188"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-74.99717736338532" lon="0.06678730735778"/>
+			<Vertex lat="-75.00522881859239" lon="0.06896037303652"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" groupIndex="2" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.000000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-74.99714346533703" lon="0.06865892067542"/>
+			<Vertex lat="-75.00519488451229" lon="0.07083334998762"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

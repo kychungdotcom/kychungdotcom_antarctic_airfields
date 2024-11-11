@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport groupID="1" groupGenerated="FALSE" region="Antarctica" country="United Kingdom" state="Ellsworth Land" name="Sky Blu" ident="AT24" lat="-74.85457420589584" lon="-71.56273833024204" alt="1427.00000000000000" magvar="332.700012" trafficScalar="1.000000" airportTestRadius="650.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-74.85457420588055" lon="-71.56273833024204" alt="1361.45336497202516" heading="28.35000419616699" length="1201.00000000000000" width="50.00000000000000" patternAltitude="304.79998779296875" falloff="100.000000" surface="{F32EE818-CB7A-4477-96C3-E970EE1A2257}" transparent="FALSE" number="32" designator="NONE" primaryLanding="FALSE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="FALSE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<RunwayDeformation alt="1353.567261" ratio="0.000000"/>
+			<RunwayDeformation alt="1364.085327" ratio="1.000000"/>
+			<Coloration red="165" green="183" blue="190" alpha="255" override="TRUE"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-74.85907730793167" lon="-71.57202730096029" alt="1355.82238109223545" heading="28.35000610351562"/>
+			<RunwayStart end="SECONDARY" lat="-74.85024123431049" lon="-71.55378961760087" alt="1363.06193400826305" heading="208.35000610351562"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-74.85942320841801" lon="-71.57169408750613"/>
+			<Vertex lat="-74.84995558900333" lon="-71.55215123687015"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" groupIndex="2" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-74.85919227270961" lon="-71.57333152646912"/>
+			<Vertex lat="-74.84972494909077" lon="-71.55378727068103"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport groupID="1" groupGenerated="FALSE" region="Antarctica" country="France" state="Terra Nova Bay" city="Dome C" name="Concordia" ident="AT03" lat="-75.10333333333332" lon="123.35833333333333" alt="3270.00000000000000" magvar="143.899994" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-75.10776186952464" lon="123.35361307063015" alt="3233.15914347488433" heading="15.76000022888184" length="2557.00000000000000" width="50.00000000000000" patternAltitude="304.79998779296875" falloff="2000.000000" surface="{F32EE818-CB7A-4477-96C3-E970EE1A2257}" transparent="FALSE" number="01" designator="NONE" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<Coloration red="165" green="183" blue="190" alpha="255" override="TRUE"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-75.11851741663595" lon="123.34174389257917" alt="3179.18316990975291" heading="15.76000022888184"/>
+			<RunwayStart end="SECONDARY" lat="-75.09699436933565" lon="123.36545612128387" alt="3203.44929449725896" heading="195.76000976562500"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-75.11884557443140" lon="123.34242051944884"/>
+			<Vertex lat="-75.09680955757828" lon="123.36660693529319"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" groupIndex="2" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-75.11871327533886" lon="123.34060052593712"/>
+			<Vertex lat="-75.09667772259681" lon="123.36478957080180"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

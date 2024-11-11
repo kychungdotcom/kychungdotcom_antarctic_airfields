@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<LandmarkLocation instanceId="{9A673C45-D431-4DA2-B154-DB5807129872}" type="Star Landmark" name="Geographic South Pole" lat="-89.99999900000002" lon="180.00000000000000" alt="2563.45635192096233" offset="457.200012"/>
+	<LandmarkLocation instanceId="{D37E230C-6467-4B54-94FC-27A51AEDCC7E}" type="Star Landmark" name="Magnetic South Pole (2020)" lat="-64.08100266986850" lon="135.86599828180852" alt="0.01401138305664" offset="457.200012"/>
+</FSData>
+

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='ASCII'?>
+<FSData version="9.0">
+	<Airport ident="NZFX" lat="-77.95" lon="166.75" alt="38.0F" onlyAddIfReplace="TRUE">
+    	<Waypoint lat="-71.951827" lon="2.502321" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="LULAV"/>
+		<Waypoint lat="-77.96983333333333" lon="166.77033333333333" magvar="0.0" waypointType="UNNAMED" waypointRegion="NZ" waypointIdent="DER15"/>
+		<Waypoint lat="-77.944" lon="166.72883333333333" magvar="0.0" waypointType="UNNAMED" waypointRegion="NZ" waypointIdent="DER33"/>
+		<Waypoint lat="-78.218" lon="167.121333333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="ACREZ"/>
+		<Waypoint lat="-77.72133333333333" lon="166.24633333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="FAVGU"/>
+		<Waypoint lat="-77.67983333333333" lon="166.31633333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="HEMVI"/>
+		<Waypoint lat="-78.148" lon="167.02116666666666" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="HUVRI"/>
+		<Waypoint lat="-78.113" lon="166.9715" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="GULTE"/>
+		<Waypoint lat="-78.04916666666666" lon="166.882" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="MEBET"/>
+		<Waypoint lat="-77.9775" lon="166.78233333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="HAMPS"/>
+		<Waypoint lat="-77.83583333333333" lon="166.49466666666666" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="MOBOE"/>
+		<Waypoint lat="-77.857" lon="166.54083333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="RUPAE"/>
+		<Waypoint lat="-77.881" lon="166.59383333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="MUBCA"/>
+		<Waypoint lat="-77.93666666666666" lon="166.71733333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="HENUD"/>
+		<Waypoint lat="-77.88421833333333" lon="166.63339166666666" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="ARDLY"/>
+		<Waypoint lat="-77.84959166666666" lon="166.57855833333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="HEALD"/>
+		<Waypoint lat="-77.74249833333333" lon="166.41100333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="JOBGU"/>
+		<Waypoint lat="-77.72918166666666" lon="165.54027666666666" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="BRACT"/>
+		<Waypoint lat="-78.04844333333333" lon="166.897615" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="SHORD"/>
+		<Waypoint lat="-78.11129" lon="167.00063333333333" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="HAPAS"/>
+		<Waypoint lat="-78.14690666666666" lon="167.040675" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="ZOKOM"/>
+		<Waypoint lat="-77.936135" lon="166.71622166666666" magvar="0.0" waypointType="RNAV" waypointRegion="NZ" waypointIdent="FUNIS"/>
+		<!--JEHOO: 76.110180S 165.512430E -->
+		<!--RAPPY: 77.103226S 165.133797E -->
+		<Departure name="NOBEY6">
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="15" designator="NONE">
+					<Leg type="VA" trueCourse="342.0" altitudeDescriptor="+" altitude1="600.0F"/>
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="NZ" fixIdent="NOBEY" flyOver="FALSE" turnDirection="R" altitudeDescriptor="B" altitude1="16000.0F" altitude2="3000.0F"/>
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="33" designator="NONE">
+					<Leg type="VA" trueCourse="162.0" altitudeDescriptor="+" altitude1="600.0F"/>
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="NZ" fixIdent="NOBEY" flyOver="FALSE" turnDirection="R" altitudeDescriptor="B" altitude1="16000.0F" altitude2="3000.0F"/>
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+			<CommonRouteLegs/>
+			<EnrouteTransitions/>
+		</Departure>
+		<Arrival name="SOUND7">
+			<EnrouteTransitions/>
+			<CommonRouteLegs>
+				<Leg type="IF" fixType="WAYPOINT" fixRegion="NZ" fixIdent="JEHOO" altitudeDescriptor="+" altitude1="5000.0F"/>
+				<Leg type="TF" fixType="WAYPOINT" fixRegion="NZ" fixIdent="RAPPY" flyOver="FALSE" trueCourse="188.0" distance="60.5N" altitudeDescriptor="+" altitude1="4800.0F"/>
+			</CommonRouteLegs>
+			<RunwayTransitions>
+				<RunwayTransitionLegs number="33" designator="NONE">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="NZ" fixIdent="RAPPY" altitudeDescriptor="+" altitude1="4800.0F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" flyOver="FALSE" trueCourse="155.0" distance="33.6N" altitudeDescriptor="+" altitude1="4200.0F"/>
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="15" designator="NONE">
+					<Leg type="IF" fixType="WAYPOINT" fixRegion="NZ" fixIdent="RAPPY" altitudeDescriptor="+" altitude1="4800.0F"/>
+					<Leg type="TF" fixType="VOR" fixRegion="NZ" fixIdent="ZFX" flyOver="FALSE" trueCourse="158.0" distance="50.5N" altitudeDescriptor="+" altitude1="4700.0F"/>
+				</RunwayTransitionLegs>
+			</RunwayTransitions>
+		</Arrival>
+    	<Approach type="VOR" runway="15" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="MEBET" altitude="1400.0F" heading="344.0" missedAltitude="3200.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="ACREZ" isIAF="TRUE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="151.0" rho="17.0N" altitudeDescriptor="+" altitude1="4700.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HUVRI" flyOver="FALSE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="151.0" rho="12.6N" distance="4.4N" trueCourse="344.0" altitudeDescriptor="+" altitude1="3300.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="GULTE" flyOver="FALSE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="151.0" rho="10.4N" distance="2.2N" trueCourse="344.0" altitudeDescriptor="+" altitude1="2600.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="MEBET" isFAF="TRUE" flyOver="FALSE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="151.0" rho="6.4N" distance="4.0N" trueCourse="344.0" altitudeDescriptor="+" altitude1="1400.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HAMPS" isMAP="TRUE" flyOver="TRUE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="151.0" rho="1.9N" distance="4.5N" trueCourse="344.0" altitudeDescriptor="A" altitude1="77.0F"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HAMPS"/>
+				<Leg type="TF" fixType="VOR" fixRegion="NZ" fixIdent="ZFX" flyOver="FALSE" trueCourse="344.0"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FAVGU" flyOver="FALSE" trueCourse="335.0" altitudeDescriptor="+" altitude1="3200.0F"/>
+				<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FAVGU" turnDirection="R" trueCourse="155.0" time="1.0" altitudeDescriptor="+" altitude1="3200.0F"/>
+			</MissedApproachLegs>
+		</Approach>
+		<Approach type="VOR" runway="33" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="MOBOE" altitude="2000.0F" heading="155.0" missedAltitude="3200.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FAVGU" isIAF="TRUE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="335.0" rho="15.0N" altitudeDescriptor="+" altitude1="3200.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="MOBOE" isFAF="TRUE" flyOver="FALSE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="335.0" rho="7.4N" distance="7.6N" trueCourse="155.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="RUPAE" flyOver="FALSE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="335.0" rho="6.0N" trueCourse="155.0" distance="1.4N" altitudeDescriptor="+" altitude1="1600.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="MUBCA" flyOver="FALSE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="335.0" rho="4.4N" trueCourse="155.0" distance="1.6N" altitudeDescriptor="+" altitude1="1180.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HENUD" isMAP="TRUE" flyOver="TRUE" recommendedType="VOR" recommendedRegion="NZ" recommendedIdent="ZFX" theta="335.0" rho="0.7N" distance="3.7N" trueCourse="155.0" altitudeDescriptor="A" altitude1="88.0F"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" trueCourse="155.0" altitudeDescriptor="+" altitude1="600.0F"/>
+				<Leg type="DF" fixType="VOR" fixRegion="NZ" fixIdent="ZFX" flyOver="FALSE" turnDirection="R"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FAVGU" flyOver="FALSE" trueCourse="335.0" altitudeDescriptor="+" altitude1="3200.0F"/>
+				<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FAVGU" turnDirection="R" trueCourse="155.0" time="1.0" altitudeDescriptor="+" altitude1="3200.0F"/>
+			</MissedApproachLegs>
+		</Approach>
+		<Approach type="RNAV" runway="33" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEALD" altitude="2000.0F" heading="162.0" missedAltitude="4200.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEALD" isFAF="TRUE" altitudeDescriptor="A" altitude1="2000.0F" verticalAngle="-3.0"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="ARDLY" flyOver="FALSE" trueCourse="162.0" altitudeDescriptor="A" altitude1="1280.0F" verticalAngle="-3.0"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="DER33" isMAP="TRUE" flyOver="TRUE" trueCourse="162.0" altitudeDescriptor="A" altitude1="88.0F" verticalAngle="-3.0"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" trueCourse="162.0" altitudeDescriptor="+" altitude1="1000.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" turnDirection="R" flyOver="FALSE" altitudeDescriptor="+" altitude1="4200.0F"/>
+				<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" turnDirection="R" trueCourse="162.0" distance="5.0N" altitudeDescriptor="+" altitude1="4200.0F"/>
+			</MissedApproachLegs>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" name="HEMVI" fixIdent="HEMVI" altitude="4200.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" isIAF="TRUE" altitudeDescriptor="+" altitude1="4200.0F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="JOBGU" flyOver="FALSE" trueCourse="162.0" altitudeDescriptor="+" altitude1="3300.0F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEALD" isFAF="TRUE" flyOver="FALSE" trueCourse="162.0" altitudeDescriptor="A" altitude1="2000.0F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" name="BRACT" fixIdent="BRACT" altitude="4200.0F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="BRACT" isIAF="TRUE" altitudeDescriptor="+" altitude1="4200.0F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" isIF="TRUE" flyOver="FALSE" trueCourse="73.0" altitudeDescriptor="+" altitude1="4200.0F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="JOBGU" flyOver="FALSE" trueCourse="162.0" altitudeDescriptor="+" altitude1="3300.0F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEALD" isFAF="TRUE" flyOver="FALSE" trueCourse="162.0" altitudeDescriptor="A" altitude1="2000.0F"/>
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+		<Approach type="RNAV" runway="15" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="SHORD" altitude="2000.0F" heading="341.0" missedAltitude="4200.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="ACREZ" isIAF="TRUE" altitudeDescriptor="+" altitude1="4200.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="ZOKOM" flyOver="FALSE" trueCourse="347.0" altitudeDescriptor="+" altitude1="3300.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HAPAS" flyOver="FALSE" trueCourse="347.0" altitudeDescriptor="+" altitude1="2600.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="SHORD" isFAF="TRUE" flyOver="FALSE" trueCourse="341.0" altitudeDescriptor="A" altitude1="1400.0F" verticalAngle="-2.5"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="DER15" isMAP="TRUE" flyOver="TRUE" trueCourse="341.0" altitudeDescriptor="A" altitude1="77.0F" verticalAngle="-2.5"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" trueCourse="341.0" altitudeDescriptor="+" altitude1="600.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FAVGU" turnDirection="L" flyOver="FALSE" altitudeDescriptor="+" altitude1="3200.0F"/>
+				<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FAVGU" turnDirection="R" trueCourse="155.0" distance="5.0N" altitudeDescriptor="+" altitude1="3200.0F"/>
+			</MissedApproachLegs>
+		</Approach>
+		<Approach type="LOCALIZER" runway="33" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEALD" altitude="2000.0F" heading="162.0" missedAltitude="4200.0F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" isIAF="TRUE" altitudeDescriptor="+" altitude1="4200.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="JOBGU" flyOver="FALSE" trueCourse="162.0" altitudeDescriptor="+" altitude1="3300.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEALD" isFAF="TRUE" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="NZ" recommendedIdent="TZFX" theta="341.465" rho="6.2N" trueCourse="162.0" altitudeDescriptor="+" altitude1="2000.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="ARDLY" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="NZ" recommendedIdent="TZFX" theta="341.465" rho="4.0N" trueCourse="162.0" distance="2.2N" altitudeDescriptor="+" altitude1="1280.0F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="FUNIS" flyOver="FALSE" recommendedType="LOCALIZER" recommendedRegion="NZ" recommendedIdent="TZFX" theta="341.465" rho="0.7N" trueCourse="162.0" distance="3.3N"/>
+				<Leg type="TF" fixType="RUNWAY" fixRegion="NZ" fixIdent="RW33" isMAP="TRUE" flyOver="TRUE" recommendedType="LOCALIZER" recommendedRegion="NZ" recommendedIdent="TZFX" theta="341.465" rho="0.2N" trueCourse="162.0" distance="0.5N" altitudeDescriptor="A" altitude1="88.0F"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" trueCourse="162.0" altitudeDescriptor="+" altitude1="1000.0F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" turnDirection="R" flyOver="FALSE" altitudeDescriptor="+" altitude1="4200.0F"/>
+				<Leg type="HM" fixType="TERMINAL_WAYPOINT" fixRegion="NZ" fixIdent="HEMVI" turnDirection="R" trueCourse="162.0" distance="5.0N" altitudeDescriptor="+" altitude1="4200.0F"/>
+			</MissedApproachLegs>
+		</Approach>
+	</Airport>
+	<Vor lat="-77.94716666666666" lon="166.74066666666666" alt="7.185140" type="HIGH" frequency="113.80" magvar="167.0" region="NZ" ident="ZFX" name="Phoenix Field" nav="TRUE" dmeOnly="FALSE" dme="TRUE" tacan="TRUE"/>
+</FSData>

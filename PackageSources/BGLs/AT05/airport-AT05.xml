@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport groupID="1" groupGenerated="FALSE" region="Antarctica" country="France" state="Adelie Land" city="Dumont d'Urville Station" name="D85 Skiway" ident="AT05" lat="-70.42499999991637" lon="134.14583300000001" alt="2655.99999332893640" magvar="162.500000" trafficScalar="1.000000" airportTestRadius="1450.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE">
+		<Runway parentGroupID="1" lat="-70.42499999914632" lon="134.14583333334340" alt="2603.31251093931496" heading="277.99996948242188" length="2848.35595703125000" width="50.00000000000000" patternAltitude="304.79998779296875" falloff="2000.000000" surface="{F32EE818-CB7A-4477-96C3-E970EE1A2257}" transparent="FALSE" number="09" designator="NONE" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<RunwayDeformation alt="2598.441406" ratio="0.000000"/>
+			<RunwayDeformation alt="2603.430908" ratio="1.000000"/>
+			<Coloration red="165" green="183" blue="190" alpha="255" override="TRUE"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-70.42671299917798" lon="134.18236400001010" alt="2603.31251093931496" heading="277.99996948242188"/>
+			<RunwayStart end="SECONDARY" lat="-70.42327799917797" lon="134.10930800001009" alt="2603.31251093931496" heading="97.99996948242188"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-70.42297948487756" lon="134.10825270578883"/>
+			<Vertex lat="-70.42653375774240" lon="134.18367638665296"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" groupIndex="2" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="FALSE" adjustScalingAlongPath="TRUE">
+			<Vertex lat="-70.42346083876687" lon="134.10804964776571"/>
+			<Vertex lat="-70.42701516043124" lon="134.18347506904971"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<!--SceneryObject name: Cone-->
+	<SceneryObject displayName="Runway 02 Threshold" lat="-89.98801700468300" lon="2.69442267747709" alt="0.00000000000000" pitch="0.000027" bank="-0.000027" heading="-179.999991" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+		<LibraryObject name="{154D5390-533B-456D-80E9-16967528BF22}" scale="1.000000"/>
+	</SceneryObject>
+	<!--SceneryObject name: Cone-->
+	<SceneryObject displayName="Runway 20 Threshold" groupIndex="2" lat="-89.97824705670868" lon="-148.09376001587634" alt="0.00000000000000" pitch="0.000055" bank="-0.000055" heading="-179.999991" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+		<LibraryObject name="{154D5390-533B-456D-80E9-16967528BF22}" scale="1.000000"/>
+	</SceneryObject>
+	<Airport groupIndex="1" groupID="1" groupGenerated="FALSE" region="Antarctica" country="United States" state="Polar Plateau" city="Geographic South Pole" name="Jack F. Paulus Skiway" ident="NZSP" lat="-89.99368568461026" lon="-120.81236246819959" alt="2614.56379034649581" magvar="29.360001" trafficScalar="1.000000" airportTestRadius="3673.17977372737460" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+		<Runway parentGroupID="1" lat="-89.99368568461026" lon="-120.81236246819959" alt="2831.89698845334351" heading="322.38891601562500" length="3657.60009765625000" width="60.95999908447266" patternAltitude="304.79998779296875" falloff="2000.000000" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="02" designator="NONE" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="FALSE" excludeVegetationAround="TRUE">
+			<RunwayDeformation alt="2834.639893" ratio="0.000000"/>
+			<RunwayDeformation alt="2829.154053" ratio="1.000000"/>
+			<Markings edges="FALSE" threshold="FALSE" alternateThreshold="FALSE" fixedDistance="FALSE" alternateFixedDistance="FALSE" touchdown="FALSE" alternateTouchdown="FALSE" dashes="FALSE" ident="FALSE" leadingZeroIdent="FALSE" precision="FALSE" alternatePrecision="FALSE" edgePavement="FALSE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="NONE" edge="HIGH"/>
+			<RunwayStart end="PRIMARY" lat="-89.98822109260468" lon="2.51851978395256" alt="2834.99896199256182" heading="-160.90991210937500"/>
+			<RunwayStart end="SECONDARY" lat="-89.97852520006391" lon="-148.08777549239093" alt="2829.15404146350920" heading="170.16342163085938"/>
+		</Runway>
+		<VectorPlacement parentGroupID="1" groupIndex="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="60.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="TRUE" adjustScalingAlongPath="FALSE">
+			<Vertex lat="-89.98790366474601" lon="1.56819120388060"/>
+			<Vertex lat="-89.97824037274738" lon="-147.47560376077007"/>
+		</VectorPlacement>
+		<VectorPlacement parentGroupID="1" profile="{F98010CA-FE3C-4C95-946F-98E5CFC973EA}" spacing="50.000000" heading="0.000000" scale="1.500000" scaleDelta="0.000000" rotation="Follow edge" avoidDiscontinuity="TRUE" adjustScalingAlongPath="FALSE">
+			<Vertex lat="-89.98816960815344" lon="4.02861880660697"/>
+			<Vertex lat="-89.97979592341621" lon="-150.33276290592698"/>
+		</VectorPlacement>
+		<Aprons/>
+		<PaintedElements>
+			<PaintedLine parentGroupID="1" groupIndex="5" type="DEFAULT" trueAngle="ALL_POINTS">
+				<Vertex lat="-89.98801700000000" lon="2.69444400000000"/>
+				<Vertex lat="-89.97824700000000" lon="-148.09361100000001"/>
+			</PaintedLine>
+		</PaintedElements>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

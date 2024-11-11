@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="3.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>Antarctica Airport Pack</Title>
+		<Manufacturer/>
+		<Creator>kychungdotcom</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\kychungdotcom-antarctic-airfields\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\kychungdotcom-antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-aqbc">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AQBC\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at03">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT03\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at05">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT05\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at09">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT09\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at10">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT10\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at12">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT12\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at13">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT13\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at14">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT14\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at15">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT15\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at16">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT16\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at17">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT17\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at18">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT18\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at22">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT22\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at24">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT24\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at28">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT28\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-at98">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\AT98\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-egah">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\EGAH\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-enoe">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\ENOE\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-nzfx">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\NZFX\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-nzsp">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\NZSP\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-scbo">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\SCBO\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-scgc">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\SCGC\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-airport-ywks">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\YWKS\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-antarctica-models">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\Antarctica_Models\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\modelLib\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="kychungdotcom-antarctica-pois">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\antarctica-pois\</AssetDir>
+			<OutputDir>scenery\kychungdotcom\antarctic-airfields\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
