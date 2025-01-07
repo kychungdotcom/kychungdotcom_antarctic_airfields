@@ -1,0 +1,18 @@
+# Ignore everything in repository root 
+/*
+
+#Blender Backups
+*.blend1
+
+# Essential Sources
+!/PackageDefinitions
+!/PackageSources
+
+# Root level XML definiton
+!/*.xml
+
+# Readme
+!README.md
+
+#gitignore
+!.gitignore
